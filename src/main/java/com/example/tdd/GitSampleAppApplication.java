@@ -21,7 +21,7 @@ public class GitSampleAppApplication {
 	@GetMapping("/welcome")
 	public ResponseEntity<String> getWelcomeMessage()
 	{
-		return new ResponseEntity<String>("Welcome to GUTHUB CICD pipeline",HttpStatus.OK);
+		return new ResponseEntity<String>("Welcome to GUTHUB CICD pipeline !!!!!!",HttpStatus.OK);
 	}
 
 }
